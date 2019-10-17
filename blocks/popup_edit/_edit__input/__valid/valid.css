@@ -1,0 +1,48 @@
+.valide_name{
+  font-size: 12px;
+  line-height: 15px;
+  margin: 0;
+  color: #FF0000;
+  display: none;
+  
+}
+.valide_job{
+  font-size: 12px;
+  line-height: 15px;
+  margin: 0;
+  color: #FF0000;
+  display: none;
+}
+.valide_name.novalid{
+  display: block;
+}
+.valide_job.novalid{
+  display: block;
+}
+
+.valide_name__count{
+  font-size: 12px;
+  line-height: 15px;
+  margin: 0;
+  color: #FF0000;
+  display: none;
+  
+}
+.valide_job__count{
+  font-size: 12px;
+  line-height: 15px;
+  margin: 0;
+  color: #FF0000;
+  display: none;
+
+}
+
+.valide_name__count.novalid{
+ display: block;
+  
+}
+.valide_job__count.novalid{
+  display: block;
+   
+ }
+

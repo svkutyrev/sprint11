@@ -1,0 +1,49 @@
+.valide_name-new{
+  font-size: 12px;
+  line-height: 15px;
+  margin: 0;
+  color: #FF0000;
+  display: none;
+  
+}
+.valide_link-new{
+  font-size: 12px;
+  line-height: 15px;
+  margin: 0;
+  color: #FF0000;
+  display: none;
+}
+
+.valide_name__count-new{
+  font-size: 12px;
+  line-height: 15px;
+  margin: 0;
+  color: #FF0000;
+  display: none;
+  
+}
+.valide_link__count-new{
+  font-size: 12px;
+  line-height: 15px;
+  margin: 0;
+  color: #FF0000;
+  display: none;
+
+}
+
+.valide_name-new.novalid{
+  display: block;
+}
+.valide_link-new.novalid{
+  display: block;
+}
+
+.valide_name__count-new.novalid{
+ display: block;
+  
+}
+.valide_link__count-new.novalid{
+  display: block;
+   
+ }
+

@@ -1,0 +1,18 @@
+.place-card__description {
+  display: flex;
+  min-height: 78px;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 0 22px;
+}
+
+/*.place-card__like-count{
+
+  font-size: 13px;
+  line-height: 16px;
+  text-align: center;
+  
+  color: #000000;
+}
+*/

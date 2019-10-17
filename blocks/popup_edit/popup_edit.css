@@ -1,0 +1,20 @@
+@import url(./_edit__content/popup_edit__content.css);
+@import url(./_edit__close/popup_edit__close.css);
+@import url(./_edit__title/popup_edit__title.css);
+@import url(./_edit__form/popup_edit__form.css);
+@import url(./_edit__input/popup_edit__input.css);
+@import url(./_edit__button/popup_edit__button.css);
+@import url(./_is-opened__edit/popup_is-opened-edit.css);
+
+.popup_edit {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
