@@ -1,0 +1,40 @@
+{
+  "name": "sprint11",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production & rimraf dist && webpack --mode production",
+    "dev": "cross-env NODE_ENV=development & webpack-dev-server --mode development --open --watch",
+    "deploy": "cross-env NODE_ENV=production & gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/svkutyrev/sprint11.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/svkutyrev/sprint11/issues"
+  },
+  "homepage": "https://github.com/svkutyrev/sprint11#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.6.4",
+    "@babel/core": "^7.6.4",
+    "@babel/preset-env": "^7.6.3",
+    "autoprefixer": "^9.6.5",
+    "babel-loader": "^8.0.6",
+    "cross-env": "^6.0.3",
+    "css-loader": "^3.2.0",
+    "cssnano": "^4.1.10",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "postcss-loader": "^3.0.0",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.8.2"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.26.0"
+  }
+}
